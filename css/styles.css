@@ -1,0 +1,63 @@
+/* цвета #FFFFFF
+#757575
+#2196F3
+#212121
+rgba(255, 255, 255, 0.6) 
+
+шрифты: Raleway bolt  Roboto 400 500 700 900 
+*/
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #757575;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.logo-accent {
+  color: #2196f3;
+}
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-adress-mail:hover,
+.header-adress-mail:focus,
+.header-adress-tel:hover,
+.header-adress-tel:focus {
+  color: #2196f3;
+}
+
+.header-adress-mail,
+.header-adress-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
