@@ -101,6 +101,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   color: var(--title-white-color);
   background-color: var(--accent-color);
@@ -177,6 +178,7 @@ body {
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: var(--title-dark-color);
+  cursor: pointer;
 }
 
 .btn-filtr:hover,
