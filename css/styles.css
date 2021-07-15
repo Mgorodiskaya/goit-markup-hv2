@@ -1,11 +1,11 @@
-/* цвета #FFFFFF
+/* #FFFFFF
 #757575
 #2196F3
 #212121
 rgba(255, 255, 255, 0.6) 
 #E5E5E5
 
-шрифты: Raleway bolt  Roboto 400 500 700 900 
+Raleway bolt  Roboto 400 500 700 900 
 */
 :root {
   --main-font: "Roboto", sans-serif;
@@ -24,7 +24,9 @@ body {
   font-family: var(--main-font);
   font-size: 14px;
   color: var(--text-color);
+  letter-spacing: 0.03em;
 }
+
 .link {
   text-decoration: none;
 }
@@ -37,17 +39,16 @@ body {
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-
   color: var(--logo-dark-color);
 }
+
 .logo-accent {
   color: var(--accent-color);
 }
+
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -83,6 +84,7 @@ body {
 .hero {
   background-color: var(--background-dark-color);
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -90,47 +92,40 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--title-white-color);
 }
+
 .hero-btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-
   color: var(--title-white-color);
   background-color: var(--accent-color);
 }
 
 .properties-item-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--title-dark-color);
 }
 
 .properties-item-text {
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.71;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
 }
+
 .work-title,
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-dark-color);
 }
 
@@ -139,37 +134,37 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-dark-color);
 }
+
 .team-item-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .footer {
   background-color: var(--background-dark-color);
 }
+
 .footer-adress-map {
   color: var(--title-white-color);
-  letter-spacing: 0.03em;
 }
+
 .footer-adress-link {
   color: var(--text-color-dark-thema);
-  letter-spacing: 0.03em;
 }
 
 .footer-logo {
   color: var(--title-white-color);
 }
+
 .footer-adress-map,
 .footer-adress-link {
   line-height: 1.71;
 }
 
-.btn-filtr {
+.btn-filter {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -181,14 +176,14 @@ body {
   cursor: pointer;
 }
 
-.btn-filtr:hover,
-.btn-filtr:focus {
+.btn-filter:hover,
+.btn-filter:focus {
   background-color: var(--accent-color);
   color: var(--title-white-color);
 }
 
 .works-list-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -198,5 +193,4 @@ body {
 .works-list-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 }
